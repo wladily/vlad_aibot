@@ -1,6 +1,6 @@
 import { BotContext } from "../types/bot-types";
 import { Hears } from "../consts/hears";
-import { baseKeyboard } from "../keyboard/baseKeyboard";
+import { baseKeyboard } from "../keyboards/keyboards";
 
 export async function startHandler(ctx: BotContext) {
     const name = ctx.from?.first_name ?? "друг";
